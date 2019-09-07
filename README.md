@@ -4,3 +4,8 @@ Para su realizacion se uso la base de datos de Open trivia, la cual ofrece un AP
 
 ## Realizada en Xcode 10.3 e iOS 12
 ## API: https://opentdb.com
+
+
+![Screenshot](img1.png)
+![Screenshot](img2.png)
+![Screenshot](img3.png)
