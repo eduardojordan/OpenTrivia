@@ -4,7 +4,6 @@
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -142,7 +141,7 @@
                                 <color key="textColor" red="0.67762305700000003" green="0.0" blue="0.42130025780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2x7-c1-tWH">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2x7-c1-tWH">
                                 <rect key="frame" x="27" y="561" width="59" height="54"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="54" id="3Ie-kL-GjE"/>
@@ -232,15 +231,6 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Puntuación" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RVL-wK-1PF">
-                                <rect key="frame" x="145.66666666666663" y="578" width="86" height="21"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="86" id="nAo-ng-hsm"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jzm-Yv-Zjt">
                                 <rect key="frame" x="27" y="689" width="150" height="50"/>
                                 <color key="backgroundColor" red="0.67762305700000003" green="0.0" blue="0.42130025780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -291,13 +281,11 @@
                             <constraint firstItem="gqw-WF-qLv" firstAttribute="top" secondItem="6rk-gY-2Pr" secondAttribute="bottom" constant="17" id="DAj-vn-sct"/>
                             <constraint firstItem="ny4-VJ-wKa" firstAttribute="bottom" secondItem="6pa-pl-xdq" secondAttribute="bottom" constant="39" id="Ewz-Ob-hHT"/>
                             <constraint firstItem="ny4-VJ-wKa" firstAttribute="trailing" secondItem="Pce-xv-f8v" secondAttribute="trailing" constant="27" id="HdY-FW-4La"/>
-                            <constraint firstItem="Pce-xv-f8v" firstAttribute="leading" secondItem="RVL-wK-1PF" secondAttribute="trailing" constant="59.5" id="I5B-sb-zge"/>
                             <constraint firstItem="ny4-VJ-wKa" firstAttribute="trailing" secondItem="uXg-hX-FiD" secondAttribute="trailing" constant="27" id="LNc-dD-9bH"/>
                             <constraint firstItem="uXg-hX-FiD" firstAttribute="top" secondItem="gqw-WF-qLv" secondAttribute="bottom" constant="36" id="LZk-Mt-5SA"/>
                             <constraint firstItem="3XZ-xh-ifJ" firstAttribute="centerX" secondItem="eji-QG-rN5" secondAttribute="centerX" id="Rfs-DG-zBK"/>
                             <constraint firstItem="LSl-6w-Rag" firstAttribute="top" secondItem="CJv-m4-QpO" secondAttribute="bottom" constant="11" id="SKq-Bk-tEC"/>
                             <constraint firstItem="fNl-kg-Wee" firstAttribute="top" secondItem="gqw-WF-qLv" secondAttribute="bottom" constant="36" id="VM2-wo-lpv"/>
-                            <constraint firstItem="RVL-wK-1PF" firstAttribute="leading" secondItem="2x7-c1-tWH" secondAttribute="trailing" constant="59.5" id="anP-Ai-qj8"/>
                             <constraint firstItem="fNl-kg-Wee" firstAttribute="leading" secondItem="ny4-VJ-wKa" secondAttribute="leading" constant="27" id="ccv-wb-RKs"/>
                             <constraint firstItem="CJv-m4-QpO" firstAttribute="top" secondItem="ada-9j-vwn" secondAttribute="bottom" constant="8" id="e4k-kr-fhM"/>
                             <constraint firstItem="CJv-m4-QpO" firstAttribute="centerX" secondItem="eji-QG-rN5" secondAttribute="centerX" id="iiB-db-Lf5"/>
