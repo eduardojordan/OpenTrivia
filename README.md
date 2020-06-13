@@ -5,7 +5,7 @@ Para su realización se uso la base de datos de Open trivia, la cual ofrece un A
 ## Realizada en Xcode 10.3 e iOS 12  Swift 4
 ## API: https://opentdb.com
 
-
+![Screenshot](CapturaTrivia.png)
 ![Screenshot](img1.png)
 ![Screenshot](img2.png)
 ![Screenshot](img3.png)
